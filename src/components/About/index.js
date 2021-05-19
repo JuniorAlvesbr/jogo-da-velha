@@ -2,7 +2,7 @@ import "./styles.css";
 
 function About() {
   return (
-    <a href="#" className="about">
+    <a href="about" className="about">
       About
     </a>
   );

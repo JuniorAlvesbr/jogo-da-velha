@@ -1,12 +1,12 @@
-import Logo from "../Logo";
 import About from "../About";
+import Logo from "../Logo";
 
 function Header() {
   return (
-    <Header>
+    <header>
       <Logo />
       <About />
-    </Header>
+    </header>
   );
 }
 
