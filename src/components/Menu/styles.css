@@ -1,0 +1,52 @@
+.checkbox {
+  display: none;
+}
+
+.hamburger-container {
+  width: 25px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hamburger {
+  width: 100%;
+  height: 4px;
+  background-color: #707070;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #707070;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.hamburger::before {
+  transform: translateY(-8px);
+}
+
+.hamburger::after {
+  transform: translateY(4px);
+}
+
+.checkbox:checked ~ .hamburger-container > .hamburger {
+  transform: rotate(-45deg);
+}
+
+.checkbox:checked ~ .hamburger-container > .hamburger::before {
+  transform: rotate(90deg);
+}
+
+.checkbox:checked ~ .hamburger-container > .hamburger::after {
+  transform: translateY(-4px);
+  visibility: hidden;
+}
