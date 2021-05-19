@@ -1,11 +1,7 @@
 import "./styles.css";
 
 function About() {
-  return (
-    <a href="about" className="about">
-      About
-    </a>
-  );
+  return <span className="about">About</span>;
 }
 
 export default About;
