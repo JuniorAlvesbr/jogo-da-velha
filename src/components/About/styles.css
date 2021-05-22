@@ -1,7 +1,8 @@
 .about {
-  color: #707070;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
+  color: #707070;
   text-decoration: none;
   text-transform: uppercase;
 }
