@@ -1,0 +1,27 @@
+.show-events {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.show-events > .input {
+  display: none;
+}
+
+.show-events > .label {
+  display: inline-flex;
+  align-items: center;
+}
+
+.show-events > .label::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #707070;
+  border-radius: 5px;
+  margin-right: 6px;
+}
+
+.show-events > .input:checked ~ .label::before {
+  background-color: #f25a70;
+}
