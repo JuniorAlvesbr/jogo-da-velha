@@ -1,0 +1,12 @@
+.label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #707070;
+  cursor: pointer;
+}
+
+.label::selection {
+  background-color: #f25a70;
+  color: white;
+}
