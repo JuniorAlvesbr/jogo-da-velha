@@ -6,6 +6,13 @@ function Board() {
     <article className="board">
       <Player player="X" />
       <Player player="O" />
+      <Player player="X" />
+      <Player player="O" />
+      <Player player="X" />
+      <Player player="O" />
+      <Player player="X" />
+      <Player player="O" />
+      <Player player="X" />
     </article>
   );
 }
