@@ -1,7 +1,8 @@
 import "./styles.css";
 
-function About() {
-  return <span className="about">About</span>;
+function About(props) {
+  console.log(props.active);
+  return <span className={`about ${props.active}`}>About</span>;
 }
 
 export default About;
