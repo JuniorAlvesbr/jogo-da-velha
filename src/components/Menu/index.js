@@ -1,8 +1,8 @@
 import "./styles.css";
 
-function Menu() {
+function Menu(props) {
   return (
-    <div className="menu">
+    <div className={`menu ${props.active}`}>
       <div className="hamburger">
         <a href="menu" className="link">
           Menu
