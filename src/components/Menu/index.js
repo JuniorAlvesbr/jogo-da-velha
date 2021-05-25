@@ -2,12 +2,13 @@ import "./styles.css";
 
 function Menu() {
   return (
-    <>
-      <input type="checkbox" id="checkbox" className="checkbox" />
-      <label className="hamburger-container" htmlFor="checkbox">
-        <div className="hamburger"></div>
-      </label>
-    </>
+    <div className="menu">
+      <div className="hamburger">
+        <a href="menu" className="link">
+          Menu
+        </a>
+      </div>
+    </div>
   );
 }
 

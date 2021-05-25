@@ -1,52 +1,49 @@
-.checkbox {
-  display: none;
-}
-
-.hamburger-container {
-  width: 25px;
-  height: 18px;
+.menu {
+  width: 26px;
+  height: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  position: relative;
   cursor: pointer;
 }
 
-.hamburger {
+.menu > .hamburger {
   width: 100%;
   height: 4px;
   background-color: #707070;
   border-radius: 10px;
-  transition: all 0.5s ease-in-out;
 }
 
-.hamburger::before,
-.hamburger::after {
+.menu > .hamburger::before,
+.menu > .hamburger::after {
   content: "";
   display: block;
   width: 100%;
   height: 4px;
   background-color: #707070;
   border-radius: 10px;
-  transition: all 0.5s ease-in-out;
+  position: absolute;
 }
 
-.hamburger::before {
-  transform: translateY(-8px);
+.menu > .hamburger::before {
+  top: 0;
 }
 
-.hamburger::after {
-  transform: translateY(4px);
+.menu > .hamburger::after {
+  bottom: 0;
 }
 
-.checkbox:checked ~ .hamburger-container > .hamburger {
-  transform: rotate(-45deg);
+.menu.-active > .hamburger {
+  transform: rotate(45deg);
+  background-color: #fff;
 }
 
-.checkbox:checked ~ .hamburger-container > .hamburger::before {
+.menu.-active > .hamburger::before,
+.menu.-active > .hamburger::after {
   transform: rotate(90deg);
+  background-color: #fff;
 }
 
-.checkbox:checked ~ .hamburger-container > .hamburger::after {
-  transform: translateY(-4px);
+.menu > .hamburger .link {
   visibility: hidden;
 }
