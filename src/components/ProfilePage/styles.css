@@ -1,0 +1,12 @@
+.profile-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #3a4042;
+  position: fixed;
+  top: 0;
+}
+
+.profile-page > .profile {
+  margin-top: 110px;
+  text-align: center;
+}

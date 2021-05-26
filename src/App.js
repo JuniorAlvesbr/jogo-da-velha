@@ -1,4 +1,4 @@
-import AboutPage from "./components/AboutPage";
+import ProfilePage from "./components/ProfilePage";
 import Board from "./components/Board";
 import Header from "./components/Header";
 import ShowEvents from "./components/ShowEvents";
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Board />
       <ShowEvents />
-      <AboutPage />
+      <ProfilePage />
     </>
   );
 }
