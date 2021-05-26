@@ -2,6 +2,7 @@ import Avatar from "../Avatar";
 import Description from "../Description";
 import Header from "../Header";
 import Name from "../Name";
+import SocialMedia from "../SocialMedia";
 import "./styles.css";
 
 function ProfilePage() {
@@ -14,6 +15,7 @@ function ProfilePage() {
         <Description>
           Migrei de tecnico de rede pleno para desenvolvedor Web
         </Description>
+        <SocialMedia />
       </section>
     </section>
   );

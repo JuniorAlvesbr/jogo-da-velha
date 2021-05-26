@@ -20,3 +20,17 @@
   display: inline-block;
   width: 290px;
 }
+
+.profile-page > .profile .social-media {
+  margin-top: 30px;
+}
+
+.profile-page .social-media > .item {
+  display: inline-block;
+  text-align: center;
+  margin-right: 16px;
+}
+
+.profile-page .social-media > .item:last-child {
+  margin-right: 0;
+}
