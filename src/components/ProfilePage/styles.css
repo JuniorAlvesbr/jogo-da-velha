@@ -10,3 +10,13 @@
   margin-top: 110px;
   text-align: center;
 }
+
+.profile-page > .profile .name {
+  margin-top: 20px;
+}
+
+.profile-page > .profile .description {
+  margin-top: 16px;
+  display: inline-block;
+  width: 290px;
+}
