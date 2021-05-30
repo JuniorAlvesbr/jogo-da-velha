@@ -4,12 +4,12 @@ import Menu from "../Menu";
 
 import "./styles.css";
 
-function Header(props) {
+function Header() {
   return (
     <header className="header">
-      <Logo active={props.active} />
-      <About active={props.active} />
-      <Menu active={props.active} />
+      <Logo />
+      <About />
+      <Menu />
     </header>
   );
 }
