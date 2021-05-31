@@ -3,9 +3,9 @@ import Avatar from "../Avatar";
 import SocialMedia from "../SocialMedia";
 import "./styles.css";
 
-function AboutPage() {
+function AboutPage({ active = "" }) {
   return (
-    <section className="about-page">
+    <section className={`about-page ${active}`}>
       <HeaderInternal />
       <dl className="profile">
         <Avatar />

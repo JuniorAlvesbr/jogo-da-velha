@@ -1,8 +1,8 @@
 import "./styles.css";
 
-function About({ white = "" }) {
+function About({ onClick, white = "" }) {
   return (
-    <a href="#todo" className={`about ${white}`}>
+    <a href="#todo" className={`about ${white}`} onClick={onClick}>
       About
     </a>
   );

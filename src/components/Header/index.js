@@ -4,11 +4,11 @@ import Menu from "../Menu";
 
 import "./styles.css";
 
-function Header() {
+function Header({ onClick }) {
   return (
     <header className="header">
       <Logo />
-      <About />
+      <About onClick={onClick} />
       <Menu />
     </header>
   );
