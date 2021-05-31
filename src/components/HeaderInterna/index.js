@@ -4,12 +4,12 @@ import Menu from "../Menu";
 
 import "./styles.css";
 
-function HeaderInternal() {
+function HeaderInternal({ onClick }) {
   return (
     <header className="header-internal">
       <Logo logo="logoWhite" />
-      <About white="-white" />
-      <Menu active="-active" />
+      <About white="-white" onClick={onClick} />
+      <Menu active="-active" onClick={onClick} />
     </header>
   );
 }

@@ -9,7 +9,7 @@ function Header({ onClick }) {
     <header className="header">
       <Logo />
       <About onClick={onClick} />
-      <Menu />
+      <Menu onClick={onClick} />
     </header>
   );
 }

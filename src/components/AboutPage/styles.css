@@ -5,6 +5,7 @@
   position: fixed;
   top: 0;
   transform: translateX(100vw);
+  transition: 200ms transform ease-in-out;
 }
 
 .about-page.-active {

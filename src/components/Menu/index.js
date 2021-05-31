@@ -1,8 +1,8 @@
 import "./styles.css";
 
-function Menu({ active = "" }) {
+function Menu({ active = "", onClick }) {
   return (
-    <div className={`menu ${active}`}>
+    <div className={`menu ${active}`} onClick={onClick}>
       <div className="hamburger">
         <a href="menu" className="link">
           Menu

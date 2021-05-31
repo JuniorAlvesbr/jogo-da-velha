@@ -10,7 +10,7 @@ function App() {
   const [active, setActive] = useState("");
 
   const handleClick = () => {
-    setActive("-active");
+    active === "-active" ? setActive("") : setActive("-active");
   };
 
   return (
@@ -18,7 +18,7 @@ function App() {
       <Header onClick={handleClick} />
       <Board />
       <ShowEvents />
-      <AboutPage active={active} />
+      <AboutPage active={active} onClick={handleClick} />
     </>
   );
 }

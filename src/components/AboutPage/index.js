@@ -3,10 +3,10 @@ import Avatar from "../Avatar";
 import SocialMedia from "../SocialMedia";
 import "./styles.css";
 
-function AboutPage({ active = "" }) {
+function AboutPage({ active = "", onClick }) {
   return (
     <section className={`about-page ${active}`}>
-      <HeaderInternal />
+      <HeaderInternal onClick={onClick} />
       <dl className="profile">
         <Avatar />
         <dt className="name">Buck Winster</dt>
