@@ -4,6 +4,11 @@
   background-color: #3a4042;
   position: fixed;
   top: 0;
+  transform: translateX(100vw);
+}
+
+.about-page.-active {
+  transform: translateX(0);
 }
 
 .about-page > .profile {
