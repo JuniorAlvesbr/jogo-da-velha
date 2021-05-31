@@ -1,10 +1,8 @@
 import logoDark from "../../assets/logo-dark.svg";
 import logoWhite from "../../assets/logo-white.svg";
 
-function Logo(props) {
-  return (
-    <img src={props.active ? logoWhite : logoDark} alt="Logo jogo da velha" />
-  );
+function Logo({ logo }) {
+  return <img src={logo === "logoWhite" ? logoWhite : logoDark} alt="teste" />;
 }
 
 export default Logo;

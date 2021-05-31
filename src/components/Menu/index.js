@@ -1,8 +1,8 @@
 import "./styles.css";
 
-function Menu() {
+function Menu({ active = "" }) {
   return (
-    <div className="menu">
+    <div className={`menu ${active}`}>
       <div className="hamburger">
         <a href="menu" className="link">
           Menu

@@ -1,8 +1,8 @@
 import "./styles.css";
 
-function About() {
+function About({ white = "" }) {
   return (
-    <a href="#todo" className="about">
+    <a href="#todo" className={`about ${white}`}>
       About
     </a>
   );

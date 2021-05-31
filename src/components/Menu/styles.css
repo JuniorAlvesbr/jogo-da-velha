@@ -14,6 +14,10 @@
   border-radius: 10px;
 }
 
+.menu > .hamburger .link {
+  visibility: hidden;
+}
+
 .menu > .hamburger::before,
 .menu > .hamburger::after {
   content: "";
@@ -42,8 +46,4 @@
 .menu.-active > .hamburger::after {
   transform: rotate(90deg);
   background-color: #fff;
-}
-
-.menu > .hamburger .link {
-  visibility: hidden;
 }
