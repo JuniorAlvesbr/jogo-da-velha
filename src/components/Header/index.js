@@ -1,4 +1,4 @@
-import About from "../About";
+import AboutLink from "../AboutLink";
 import Logo from "../Logo";
 import Menu from "../Menu";
 
@@ -8,7 +8,7 @@ function Header({ onClick }) {
   return (
     <header className="header">
       <Logo />
-      <About onClick={onClick} />
+      <AboutLink onClick={onClick} />
       <Menu onClick={onClick} />
     </header>
   );

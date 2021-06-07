@@ -1,4 +1,4 @@
-import About from "../About";
+import AboutLink from "../AboutLink";
 import Logo from "../Logo";
 import Menu from "../Menu";
 
@@ -8,7 +8,7 @@ function HeaderInternal({ onClick }) {
   return (
     <header className="header-internal">
       <Logo logo="logoWhite" />
-      <About white="-white" onClick={onClick} />
+      <AboutLink white="-white" onClick={onClick} />
       <Menu active="-active" onClick={onClick} />
     </header>
   );
