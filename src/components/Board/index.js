@@ -4,15 +4,15 @@ import "./styles.css";
 function Board() {
   return (
     <article className="board">
-      <Player player="X" />
-      <Player player="O" />
-      <Player player="X" />
-      <Player player="O" />
-      <Player player="X" />
-      <Player player="O" />
-      <Player player="X" />
-      <Player player="O" />
-      <Player player="X" />
+      <Player />
+      <Player />
+      <Player />
+      <Player />
+      <Player />
+      <Player />
+      <Player />
+      <Player />
+      <Player />
     </article>
   );
 }
