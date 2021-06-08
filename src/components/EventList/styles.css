@@ -1,0 +1,8 @@
+.event-list {
+  margin-top: 42px;
+  text-align: center;
+}
+
+.event-list > .item {
+  margin-top: 22px;
+}
