@@ -1,0 +1,14 @@
+.event-tag {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #3a4042;
+  padding: 5px 21px 4px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.event-tag.-end {
+  background-color: #eff25a;
+  padding: 5px 29px 4px 35px;
+  text-transform: uppercase;
+}
