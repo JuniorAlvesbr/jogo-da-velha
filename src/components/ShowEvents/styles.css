@@ -25,3 +25,7 @@
 .show-events > .input:checked ~ .label::before {
   background-color: #f25a70;
 }
+
+.show-events > input:checked ~ .event-list {
+  display: block;
+}

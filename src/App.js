@@ -19,7 +19,6 @@ function App() {
       <Header onClick={handleClick} />
       <Board />
       <ShowEvents />
-      <EventList />
       <AboutPage active={active} onClick={handleClick} />
     </>
   );

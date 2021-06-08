@@ -1,6 +1,7 @@
 .event-list {
   margin-top: 42px;
   text-align: center;
+  display: none;
 }
 
 .event-list > .item {
