@@ -1,23 +1,16 @@
-import { useState } from "react";
 import playerX from "../../assets/X.svg";
 import playerO from "../../assets/O.svg";
 
 import "./styles.css";
 
-function Player({ player = "" }) {
-  const [statePlayer, setStatePlayer] = useState(player)
-
+function Player({ content = "", onClick }) {
   const players = [];
-  players["X"] = playerX;
-  players["O"] = playerO;
-
-  const handleClick = () => {
-    statePlayer === "X" ? setStatePlayer("O") : setStatePlayer("X")
-  }
+  players["x"] = playerX;
+  players["o"] = playerO;
 
   return (
-    <button className="player" onClick={handleClick}>
-      {statePlayer && <img src={players[statePlayer]} alt="teste" />}
+    <button className="player" onClick={onClick}>
+      {content && <img src={players[content]} alt={`jogador ${content}`} />}
     </button>
   );
 }
