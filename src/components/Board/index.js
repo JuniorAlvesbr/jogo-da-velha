@@ -2,7 +2,7 @@ import { useState } from "react";
 import Player from "../Player";
 import "./styles.css";
 
-function Board() {
+function Board({ addHistory }) {
   const [player, setPlayer] = useState('x')
   const [stateBoard, setStateBoard] = useState([
     { key: '1', content: "" },
@@ -19,6 +19,7 @@ function Board() {
   const handleCLick = (key) => {
     setPlayer((old) => old === "x" ? "o" : "x")
     setStateBoard((old) => old.map(item => item.key === key ? { key, content: player } : item))
+    addHistory(player)
   }
 
   return (

@@ -2,14 +2,13 @@ import EventTag from "../EventTag";
 
 import './styles.css';
 
-function EventList() {
+function EventList({ history }) {
   return (
     <ol className="event-list">
-      <li className="item"><EventTag content="Adicionado O" /></li>
-      <li className="item"><EventTag content="Adicionado X" /></li>
-      <li className="item"><EventTag content="Adicionado O" /></li>
-      <li className="item"><EventTag content="Adicionado X" /></li>
-      <li className="item"><EventTag content="Empate !" className="-end" /></li>
+      {history.map((item, index) => (
+        item === "empate" ? <li className="item" key={index}><EventTag content="Empate !" className="-end" /></li> :
+          <li className="item" key={index}><EventTag content={item} /></li>
+      ))}
     </ol>
   )
 }

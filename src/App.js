@@ -8,16 +8,21 @@ import "./styles/global.css";
 
 function App() {
   const [active, setActive] = useState("");
+  const [history, setHistory] = useState([])
 
   const handleClick = () => {
     active === "-active" ? setActive("") : setActive("-active");
   };
 
+  const addHistory = (player) => {
+    setHistory(old => [...old, `Adiciounou ${player.toUpperCase()}`])
+  }
+
   return (
     <>
       <Header onClick={handleClick} />
-      <Board />
-      <ShowEvents />
+      <Board addHistory={addHistory} />
+      <ShowEvents history={history} />
       <AboutPage active={active} onClick={handleClick} />
     </>
   );

@@ -4,12 +4,12 @@ import EventList from "../EventList";
 
 import "./styles.css";
 
-function ShowEvents() {
+function ShowEvents({ history }) {
   return (
     <div className="show-events">
       <Input type="checkbox" id="events" name="events" />
       <Label htmlfor="events">Mostrar Eventos</Label>
-      <EventList />
+      <EventList history={history} />
     </div>
   );
 }
