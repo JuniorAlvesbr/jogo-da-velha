@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/jogo-da-velha/static/css/main.376ef883.chunk.css",
+    "main.js": "/jogo-da-velha/static/js/main.7b45099a.chunk.js",
+    "main.js.map": "/jogo-da-velha/static/js/main.7b45099a.chunk.js.map",
+    "runtime-main.js": "/jogo-da-velha/static/js/runtime-main.ccb81efa.js",
+    "runtime-main.js.map": "/jogo-da-velha/static/js/runtime-main.ccb81efa.js.map",
+    "static/js/2.bfec2d77.chunk.js": "/jogo-da-velha/static/js/2.bfec2d77.chunk.js",
+    "static/js/2.bfec2d77.chunk.js.map": "/jogo-da-velha/static/js/2.bfec2d77.chunk.js.map",
+    "index.html": "/jogo-da-velha/index.html",
+    "static/css/main.376ef883.chunk.css.map": "/jogo-da-velha/static/css/main.376ef883.chunk.css.map",
+    "static/js/2.bfec2d77.chunk.js.LICENSE.txt": "/jogo-da-velha/static/js/2.bfec2d77.chunk.js.LICENSE.txt",
+    "static/media/O.60b370a5.svg": "/jogo-da-velha/static/media/O.60b370a5.svg",
+    "static/media/X.a3e1107d.svg": "/jogo-da-velha/static/media/X.a3e1107d.svg",
+    "static/media/buck.c80baebf.jpg": "/jogo-da-velha/static/media/buck.c80baebf.jpg",
+    "static/media/facebook.49445939.svg": "/jogo-da-velha/static/media/facebook.49445939.svg",
+    "static/media/github.8fead8d1.svg": "/jogo-da-velha/static/media/github.8fead8d1.svg",
+    "static/media/instagram.484394bb.svg": "/jogo-da-velha/static/media/instagram.484394bb.svg",
+    "static/media/linkedin.c56c3ea7.svg": "/jogo-da-velha/static/media/linkedin.c56c3ea7.svg",
+    "static/media/logo-dark.09760705.svg": "/jogo-da-velha/static/media/logo-dark.09760705.svg",
+    "static/media/logo-white.bf83fce5.svg": "/jogo-da-velha/static/media/logo-white.bf83fce5.svg",
+    "static/media/twitter.15a0cced.svg": "/jogo-da-velha/static/media/twitter.15a0cced.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccb81efa.js",
+    "static/js/2.bfec2d77.chunk.js",
+    "static/css/main.376ef883.chunk.css",
+    "static/js/main.7b45099a.chunk.js"
+  ]
+}
